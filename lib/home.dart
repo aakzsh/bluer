@@ -10,13 +10,18 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return Scaffold(
+        body: Container(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           Text("You are logged in!"),
           MaterialButton(
             onPressed: () {
+              setState(() {
+                email = "";
+                password = "";
+              });
               FirebaseAuth auth = FirebaseAuth.instance;
               auth.signOut().then((res) {
                 Navigator.pushAndRemoveUntil(
@@ -30,6 +35,6 @@ class _HomeState extends State<Home> {
           )
         ],
       ),
-    );
+    ));
   }
 }
