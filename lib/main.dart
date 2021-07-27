@@ -137,6 +137,7 @@ class _MyHomePageState extends State<MyHomePage> {
     double w = MediaQuery.of(context).size.width;
     return Scaffold(
       body: Container(
+          height: double.infinity,
           decoration: BoxDecoration(
             image: DecorationImage(
               image: AssetImage("assets/mainbg.png"),
