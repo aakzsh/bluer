@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "605015671034",
+    "project_id": "bluersafe",
+    "storage_bucket": "bluersafe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605015671034:android:6f3018d14a6931f4360943",
+        "android_client_info": {
+          "package_name": "com.example.bluer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "605015671034-4gg146pv4bktk2j12b0c5dhvs2rsr6fs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkw62ETYU60vEij7HSiQGMxAurZyev8PY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "605015671034-4gg146pv4bktk2j12b0c5dhvs2rsr6fs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
