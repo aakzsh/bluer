@@ -7,7 +7,7 @@
     </intent>
   </queries>
    <application
-        android:label="bluer"
+        android:label="Blue Aid"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
