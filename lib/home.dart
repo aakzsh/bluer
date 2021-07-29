@@ -102,7 +102,7 @@ class _HomeState extends State<Home> {
                     Padding(
                         padding: EdgeInsets.all(10),
                         child: Text(
-                          "1. You will be notified in case of any calamity\n2. Keep your bluetooth 'ON' at all times\n3. Keep calm and take shelter.\n4. Ask for help from authorities in case of danger",
+                          "1. You will be notified in case of any calamity.\n2. Keep your bluetooth 'ON' at all times.\n3. Keep calm and take shelter.\n4. Ask for help from authorities in case of danger.",
                           style: GoogleFonts.nunito(fontSize: 16),
                         )),
                   ]),
